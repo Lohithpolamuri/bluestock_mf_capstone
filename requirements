@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+plotly
+sqlalchemy
+requests
+scipy
+jupyter
+
+data quality summary
+-missing values: 0
+-duplicate values: 0
+-ALL AMFI codes validates
+-database quality is good
