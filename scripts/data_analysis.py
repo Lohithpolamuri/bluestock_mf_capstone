@@ -1,12 +1,23 @@
 import pandas as pd
+import matplotlib.pyplot as plt
 
-fund_master = pd.read_csv("../data/raw/01_fund_master.csv")
+performance = pd.read_csv("../data/raw/07_scheme_performance.csv")
 
-print("Category Counts:")
-print(fund_master["category"].value_counts())
+top_expense = performance.sort_values(
+    by="expense_ratio_pct",
+    ascending=False
+).head(10)
 
-print("\nRisk Category Counts:")
-print(fund_master["risk_category"].value_counts())
+plt.figure(figsize=(10,5))
+plt.bar(top_expense["scheme_name"], top_expense["expense_ratio_pct"])
 
-print("\nTop 5 Fund Houses:")
-print(fund_master["fund_house"].value_counts().head())
+plt.title("Top 10 Funds by Expense Ratio")
+plt.xlabel("Scheme")
+plt.ylabel("Expense Ratio (%)")
+
+plt.xticks(rotation=45)
+plt.tight_layout()
+
+plt.savefig("../reports/top_expense_ratio.png")
+
+print("Chart saved successfully")
