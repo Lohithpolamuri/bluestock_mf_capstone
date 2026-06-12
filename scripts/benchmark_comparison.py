@@ -1,3 +1,10 @@
+"""
+Benchmark Comparison Module
+
+Compares mutual fund performance against benchmark indices.
+"""
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

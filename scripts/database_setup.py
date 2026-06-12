@@ -1,3 +1,9 @@
+
+"""
+Database Setup Module
+
+Creates database schema, tables, and required database connections.
+"""
 import pandas as pd
 import sqlite3
 

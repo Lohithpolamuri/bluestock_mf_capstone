@@ -1,3 +1,10 @@
+"""
+Data Analysis Module
+
+Performs exploratory data analysis and generates insights from mutual fund datasets.
+"""
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

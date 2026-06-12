@@ -1,3 +1,10 @@
+"""
+Tracking Error Module
+
+Calculates tracking error between mutual funds and benchmark indices.
+"""
+
+
 import pandas as pd
 import numpy as np
 

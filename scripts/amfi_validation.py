@@ -1,3 +1,9 @@
+
+"""
+AMFI Validation Module
+
+Validates mutual fund data against AMFI standards and checks data quality.
+"""
 import pandas as pd
 
 fund_master = pd.read_csv("../data/raw/01_fund_master.csv")

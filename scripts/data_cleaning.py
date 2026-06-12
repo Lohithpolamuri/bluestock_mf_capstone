@@ -1,3 +1,9 @@
+
+"""
+Data Cleaning Module
+
+Cleans, transforms, and prepares raw mutual fund data for analysis.
+"""
 import pandas as pd
 
 # Load datasets

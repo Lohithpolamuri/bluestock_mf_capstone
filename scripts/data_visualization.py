@@ -1,3 +1,11 @@
+"""
+Data Visualization Module
+
+Creates charts, plots, and visual representations of mutual fund data.
+"""
+
+
+
 import pandas as pd
 import matplotlib.pyplot as plt
 

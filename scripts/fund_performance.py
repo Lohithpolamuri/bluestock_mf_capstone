@@ -1,3 +1,10 @@
+"""
+Fund Performance Module
+
+Calculates and evaluates mutual fund performance metrics and returns.
+"""
+
+
 import pandas as pd
 import numpy as np
 

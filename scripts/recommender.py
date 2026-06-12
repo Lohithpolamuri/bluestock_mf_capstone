@@ -1,3 +1,10 @@
+"""
+Fund Recommendation Module
+
+Generates mutual fund recommendations based on performance and risk metrics.
+"""
+
+
 import pandas as pd
 
 scheme = pd.read_csv("../data/raw/07_scheme_performance.csv")

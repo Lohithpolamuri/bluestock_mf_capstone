@@ -1,3 +1,10 @@
+"""
+Data Ingestion Module
+
+Loads and imports mutual fund datasets from source files into the project.
+"""
+
+
 import pandas as pd
 
 print("Starting Data Ingestion...")

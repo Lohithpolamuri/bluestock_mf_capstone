@@ -1,3 +1,10 @@
+"""
+Live NAV Fetch Module
+
+Fetches and processes the latest NAV data for mutual fund schemes.
+"""
+
+
 import requests
 import pandas as pd
 
